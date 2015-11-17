@@ -10,7 +10,7 @@ object TypesToImplementation {
     (a: A, b: B) => f(a)(b)
   }
 
-  def compose[A, B, C](f: B => C, g: A => B): A => C = {
-    (a: A, b: B) => f(g)
+  def compose[A, B, C](f: A => B, g: B => C): A => C = {
+    (a: A) => g(f(a))
   }
 }
