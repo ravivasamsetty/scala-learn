@@ -5,12 +5,10 @@ Started Learning Functional Programming in Scala - This would be repository to h
 <h1>Status</h1>
 
 <table>
-
     <th>
         <td>Chapter</td>
         <td>Status</td>
     </th>
-
     <tr>
         <td></td>
         <td>01</td>
